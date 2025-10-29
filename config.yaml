@@ -1,0 +1,11 @@
+app:
+  name: devops_lab_app
+  port: 5000
+  log_file: /var/log/devops_lab/app.log
+
+database:
+  host: 10.0.0.2
+  port: 5432
+  name: devops_lab
+  user: postgres
+  password: mypassword
